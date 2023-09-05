@@ -1,0 +1,40 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.form{
+    width: 65%;
+}
+
+.form input{
+    padding: 8px;
+    margin: 7px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.form div{
+    width: 90%;
+    margin: 8px;
+}
+
+.form span{
+    font-weight: bold;
+    color: red;
+}
+
+.btn{
+    width: 15%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+} 
+
+
+
+
+
+

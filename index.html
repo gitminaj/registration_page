@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+    <h1> Welcome to the page! </h1>
+    <div class="flex justify-center">
+        <form action="/action.php" name="registrationForm" onsubmit="return validateForm()" method="post" class="form flex flex-column align-center">
+            <div id="input-name">
+                Name: <input type="text" name="input-name"  placeholder="enter your name" required> <br><span class="ferror"> </span>
+            </div>
+            <div id="input-email">
+                Email: <input type="email" name="input-email"  placeholder="enter your email" required><br><span class="ferror"> </span>
+            </div>
+            <div id="input-phone">
+                Phone: <input type="phone" name="input-phone"  placeholder="enter your name" required><br><span class="ferror"> </span>
+            </div>
+            <div id="input-password">
+                Password: <input type="phone" name="input-password"  placeholder="enter your name" required><br><span class="ferror"> </span>
+            </div>
+            <div id="input-confirmpass">
+               Confirm Password: <input type="phone" name="input-confirmpass"  placeholder="enter your name" required><br><span class="ferror"> </span>
+            </div>
+            <input type="submit" value="submit" class="btn">
+        </form>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html> 
+
+
+
+
